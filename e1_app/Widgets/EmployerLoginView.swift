@@ -12,12 +12,12 @@ struct EmployerLoginView: View {
         VStack(alignment: .leading) {
             VStack(alignment: .leading) {
                 Text("Поиск сотрудников")
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.White)
                     .font(.custom("SFProDisplay-Medium", size: 16))
                     .padding(.top, 24)
                 
                 Text("Размещение вакансий и доступ к базе резюме")
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.White)
                     .font(.custom("SFProDisplay-Regular", size: 14))
                     .padding(.top, 8)
             }
@@ -26,16 +26,15 @@ struct EmployerLoginView: View {
             Button(action: {}) {
                 Text("Я ищу сотрудников")
                     .font(.custom("SFProDisplay-Regular", size: 14))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.White)
             }
-                .frame(maxWidth: .infinity)
-                .padding()
-                .foregroundColor(.white)
-                .background(Color.green)
+                .frame(maxWidth: .infinity, maxHeight: 32)
+                .foregroundColor(Color.White)
+                .background(Color.Green)
                 .cornerRadius(50)
                 .padding(EdgeInsets(top: 16, leading: 16, bottom: 24, trailing: 16))
         }
-        .background(.gray)
+        .background(Color.Gray1)
         .clipShape(.rect(cornerRadius: 15))
     }
 }

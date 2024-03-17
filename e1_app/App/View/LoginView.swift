@@ -39,7 +39,8 @@ struct LoginView: View {
             Spacer()
         }
         .padding(.horizontal, 16)
-        .background(Color.blue)
+        // TODO: Remove after adding logic
+        .background(Color.Black)
     }
 }
 

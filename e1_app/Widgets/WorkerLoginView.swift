@@ -16,21 +16,23 @@ struct WorkerLoginView: View {
             VStack(alignment: .leading) {
                 Text("Поиск работы")
                     .font(.custom("SFProDisplay-Medium", size: 16))
-                    .foregroundColor(.white)
+                    .foregroundColor(Color.White)
                     .padding(.top, 24)
-                TextField("Электронная почта или телефон", text: .constant(""))
-                    .textFieldStyle(.roundedBorder)
-                    .padding(.top, 16)
-                    .overlay(
-                        HStack {
-                            if passwordText.isEmpty {
-                                Image("responses")
-                                    .foregroundColor(.gray)
-                            }
-                            Spacer()
+                ZStack {
+                    TextField("Электронная почта или телефон", text: .constant(""))
+                        .frame(height: 40)
+                        .textFieldStyle(.roundedBorder)
+                        .padding(.top, 16)
+                       
+                    HStack {
+                        if passwordText.isEmpty {
+                            Image("responses")
                         }
-                            .padding(.leading, 8)
-                    )
+                        Spacer()
+                    }
+                        .padding(.leading, 8)
+                }
+                .frame(height: 40)
             }
             .padding(.horizontal, 16)
             
@@ -41,10 +43,10 @@ struct WorkerLoginView: View {
                 }) {
                     Text("Продолжить")
                         .font(.custom("SFProDisplay-Regular", size: 14))
-                        .foregroundColor(.white)
+                        .foregroundColor(Color.White)
                 }
                 .frame(width: 167, height: 40)
-                .background(Color.blue)
+                .background(Color.Blue)
                 .cornerRadius(8)
                 
                 Spacer()
@@ -55,17 +57,16 @@ struct WorkerLoginView: View {
                 }) {
                     Text("Войти с паролем")
                         .font(.custom("SFProDisplay-Regular", size: 14))
-                        .foregroundColor(.blue)
+                        .foregroundColor(Color.Blue)
                 }
                 .frame(width: 130, height: 40)
-                .foregroundColor(.blue)
-                .background()
+                .background(Color.Gray1)
                 .cornerRadius(8)
             }
             .padding(.bottom, 56)
             .padding([.top, .horizontal], 16)
         }
-        .background(.gray)
+        .background(Color.Gray1)
         .clipShape(.rect(cornerRadius: 15))
     }
 }
