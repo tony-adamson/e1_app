@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct E1App: App {
+    
+    @StateObject var viewModel = AuthViewModel() // Создаем экземпляр ViewModel для управления состоянием авторизации
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if viewModel.isAuthenticated {
+                ContentView()
+                    .background(Color.black)
+            } else {
+                LoginView(viewModel: viewModel)
+                    .background(Color.black)
+            }
         }
     }
 }
