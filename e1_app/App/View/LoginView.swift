@@ -20,16 +20,15 @@ class AuthViewModel: ObservableObject {
 
 struct LoginView: View {
     @ObservedObject var viewModel: AuthViewModel
-    @State private var passwordText = ""
     
     var body: some View {
         VStack {
             Text("Вход в личный кабинет")
                 .font(.custom("SFProDisplay-Semibold", size: 20))
-                .foregroundColor(.white)
+                .foregroundColor(Color.White)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
-            WorkerLoginView(viewModel: AuthViewModel())
+            WorkerLoginView()
             .padding(.top, 110)
             
             

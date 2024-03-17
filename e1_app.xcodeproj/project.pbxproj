@@ -16,6 +16,7 @@
 		02D83EC22BA6BEC900D680AD /* WorkerLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EC12BA6BEC900D680AD /* WorkerLoginView.swift */; };
 		02D83EC42BA6BFBA00D680AD /* EmployerLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EC32BA6BFBA00D680AD /* EmployerLoginView.swift */; };
 		02D83EC72BA6CF4400D680AD /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EC62BA6CF4400D680AD /* AppColors.swift */; };
+		02D83EC92BA6E2C500D680AD /* EnterCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EC82BA6E2C500D680AD /* EnterCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		02D83EC12BA6BEC900D680AD /* WorkerLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerLoginView.swift; sourceTree = "<group>"; };
 		02D83EC32BA6BFBA00D680AD /* EmployerLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerLoginView.swift; sourceTree = "<group>"; };
 		02D83EC62BA6CF4400D680AD /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		02D83EC82BA6E2C500D680AD /* EnterCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				02D83EC12BA6BEC900D680AD /* WorkerLoginView.swift */,
 				02D83EC32BA6BFBA00D680AD /* EmployerLoginView.swift */,
+				02D83EC82BA6E2C500D680AD /* EnterCodeView.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				02D83EC22BA6BEC900D680AD /* WorkerLoginView.swift in Sources */,
 				02D83EAE2BA5AEBC00D680AD /* ContentView.swift in Sources */,
+				02D83EC92BA6E2C500D680AD /* EnterCodeView.swift in Sources */,
 				02D83EBD2BA601D900D680AD /* SearchView.swift in Sources */,
 				02D83EBF2BA60AFA00D680AD /* LoginView.swift in Sources */,
 				02D83EC72BA6CF4400D680AD /* AppColors.swift in Sources */,

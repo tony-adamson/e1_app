@@ -16,10 +16,10 @@ struct E1App: App {
         WindowGroup {
             if viewModel.isAuthenticated {
                 ContentView()
-                    .background(Color.black)
+                    .background(Color.Black)
             } else {
                 LoginView(viewModel: viewModel)
-                    .background(Color.black)
+                    .background(Color.Black)
             }
         }
     }
