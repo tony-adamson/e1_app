@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0293C8FF2BAF121D009408F3 /* VacancyCardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293C8FE2BAF121D009408F3 /* VacancyCardInfoView.swift */; };
+		0293C9012BAF4F35009408F3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293C9002BAF4F35009408F3 /* CustomButton.swift */; };
+		0293C9032BAF511C009408F3 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293C9022BAF511C009408F3 /* AppFonts.swift */; };
+		0293C9052BAF6195009408F3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0293C9042BAF6195009408F3 /* Helpers.swift */; };
 		02D83EAC2BA5AEBC00D680AD /* E1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EAB2BA5AEBC00D680AD /* E1App.swift */; };
 		02D83EAE2BA5AEBC00D680AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D83EAD2BA5AEBC00D680AD /* ContentView.swift */; };
 		02D83EB02BA5AEBD00D680AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D83EAF2BA5AEBD00D680AD /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0293C8FE2BAF121D009408F3 /* VacancyCardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyCardInfoView.swift; sourceTree = "<group>"; };
+		0293C9002BAF4F35009408F3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0293C9022BAF511C009408F3 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		0293C9042BAF6195009408F3 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		02D83EA82BA5AEBC00D680AD /* e1_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = e1_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D83EAB2BA5AEBC00D680AD /* E1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E1App.swift; sourceTree = "<group>"; };
 		02D83EAD2BA5AEBC00D680AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +121,9 @@
 				02D83EC12BA6BEC900D680AD /* WorkerLoginView.swift */,
 				02D83EC32BA6BFBA00D680AD /* EmployerLoginView.swift */,
 				02D83EC82BA6E2C500D680AD /* EnterCodeView.swift */,
+				0293C8FE2BAF121D009408F3 /* VacancyCardInfoView.swift */,
+				0293C9002BAF4F35009408F3 /* CustomButton.swift */,
+				0293C9042BAF6195009408F3 /* Helpers.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -121,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				02D83EC62BA6CF4400D680AD /* AppColors.swift */,
+				0293C9022BAF511C009408F3 /* AppFonts.swift */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -195,10 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0293C8FF2BAF121D009408F3 /* VacancyCardInfoView.swift in Sources */,
 				02D83EC22BA6BEC900D680AD /* WorkerLoginView.swift in Sources */,
 				02D83EAE2BA5AEBC00D680AD /* ContentView.swift in Sources */,
 				02D83EC92BA6E2C500D680AD /* EnterCodeView.swift in Sources */,
+				0293C9012BAF4F35009408F3 /* CustomButton.swift in Sources */,
+				0293C9032BAF511C009408F3 /* AppFonts.swift in Sources */,
 				02D83EBD2BA601D900D680AD /* SearchView.swift in Sources */,
+				0293C9052BAF6195009408F3 /* Helpers.swift in Sources */,
 				02D83EBF2BA60AFA00D680AD /* LoginView.swift in Sources */,
 				02D83EC72BA6CF4400D680AD /* AppColors.swift in Sources */,
 				02D83EAC2BA5AEBC00D680AD /* E1App.swift in Sources */,

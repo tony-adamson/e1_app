@@ -68,10 +68,10 @@ struct WorkerLoginView: View {
                 .cornerRadius(8)
                 .disabled(emailText.isEmpty)
                 
-                NavigationLink(destination: EnterCodeView(viewModel: AuthViewModel(), email: emailText), isActive: $navigateToEnterCode) {
-                    EmptyView()
-                }
-                .hidden()
+//                NavigationLink(destination: EnterCodeView(viewModel: AuthViewModel(), email: emailText), isActive: $navigateToEnterCode) {
+//                    EmptyView()
+//                }
+//                .hidden()
                 
                 Spacer()
                 
