@@ -11,9 +11,10 @@ struct SearchView: View {
     var body: some View {
         Text("Search row")
         
-        Text("Row with 3 buttons")
+        FilterRowView()
         
         Text("Вакансии для вас")
+            .font(AppFonts.title2)
         
         Text("Блок вакансии")
         
