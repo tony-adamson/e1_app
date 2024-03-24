@@ -40,18 +40,18 @@ struct EnterCodeView: View {
                     .background(Color.Gray2)
             }
             .padding(.leading, 16)
-            Button(action: {
-                viewModel.login()
-            }) {
-                Text("Подтвердить")
-                    .font(.custom("SFProDisplay-Regular", size: 14))
-                    .foregroundColor(Color.White)
-            }
-                .frame(maxWidth: .infinity, maxHeight: 48)
-                .foregroundColor(Color.White)
-                .background(Color.DarkBlue)
-                .cornerRadius(8)
-                .padding(EdgeInsets(top: 16, leading: 16, bottom: 0, trailing: 16))
+//            Button(action: {
+//                viewModel.login()
+//            }) {
+//                Text("Подтвердить")
+//                    .font(.custom("SFProDisplay-Regular", size: 14))
+//                    .foregroundColor(Color.White)
+//            }
+//                .frame(maxWidth: .infinity, maxHeight: 48)
+//                .foregroundColor(Color.White)
+//                .background(Color.DarkBlue)
+//                .cornerRadius(8)
+//                .padding(EdgeInsets(top: 16, leading: 16, bottom: 0, trailing: 16))
         }
         .background(Color.Black)
     }
